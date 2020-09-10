@@ -30,10 +30,10 @@ but given bat and table, you should return false.
 
 8. Given a list of n distinct elements, write a function that lists all permutations of that list.
 
-9. Given a list of n distinct elements and a number k, write a function that lists all k­element
+9. Given a list of n distinct elements and a number k, write a function that lists all k-element
 subsets of that list. Make sure not to output the same subset multiple times.
 
-10. Given a list of n distinct elements and a number k, write a function that lists all k­element
+10. Given a list of n distinct elements and a number k, write a function that lists all k-element
 permutations of that list.
 
 11. Given a list of n distinct elements and a number k, write a function that lists all possible
