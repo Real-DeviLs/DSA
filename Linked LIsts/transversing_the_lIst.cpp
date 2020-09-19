@@ -153,7 +153,7 @@ struct Node*searchr(struct Node*p,int key){
 
 int main(){
 
-    int A[] = {3,5,7,10,15};
+    int A[] = {3,5,7,10,15,17};
     create(A,5);
     display(first);
     Displayr(first);//recursive version
