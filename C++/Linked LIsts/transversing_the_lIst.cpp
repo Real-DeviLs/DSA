@@ -68,6 +68,7 @@ int countr(struct Node *p){
     else return( countr(p->next) +1);
 
 }
+
 int add(struct Node *p){
 
     int sum =0;
@@ -79,6 +80,7 @@ int add(struct Node *p){
     }
     return sum;
 }
+
 int addr(struct Node *p){   
 
     if(p==0)
@@ -88,6 +90,7 @@ int addr(struct Node *p){
     
 
 }
+
 int max(struct Node *p){
 
     int mx = INT_MIN;
@@ -127,6 +130,7 @@ int min(struct Node*p){
     }
     return x; 
 }
+
 struct Node* search(struct Node*p ,int key){
 
     while(p!=NULL){
@@ -147,9 +151,6 @@ struct Node*searchr(struct Node*p,int key){
     }
     else searchr(p->next,key);
 }
-
-
-
 
 int main(){
 
