@@ -1,2 +1,2 @@
 # DSA
-DSA progress and competition between C++ and Python coders
+DSA progress and competition between C++/C and Python coders
