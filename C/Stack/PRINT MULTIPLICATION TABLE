@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int r, c, y ; //variable declaration
+    clrscr() ; 
+    r = 1 ;
+    
+    printf("The multiplication table is :\n\n") ;
+    do
+    {
+        c = 1 ;
+        do
+        {
+            y = r * c ;
+            printf("%5d", y) ;
+            c = c + 1 ;
+        } while(c <= 10) ;
+        printf("\n\n") ;
+        r = r + 1 ;
+    } while(r <= 10) ;
+    getch() ;
+}
