@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+    int side1,side2,volume1,volume2, number;
+    printf("Enter side of large cube:");
+    scanf("%d",&side1);
+    volume1=side1*side1*side1;
+    printf("enter side of small cube:");
+    scanf("%d",&side2);
+    volume2=side2*side2*side2;
+     
+number=volume1/volume2;
+printf("number of small cubes=%d",number);
+    return 0;
+}
