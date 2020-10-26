@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+  int a=0,b=1,c,n;
+  printf("Enter the Number for fabonacci Series :");
+  scanf("%d", &n);
+  printf("Fabonacci Series is:\n");
+  printf("%d \n%d\n", a, b);
+  do{
+  	c=a+b;
+  	a=b;
+  	b=c;
+  	printf("%d\n", c);   
+  	n--;	
+  }  while(n>0);
+  return 0;
+ }
